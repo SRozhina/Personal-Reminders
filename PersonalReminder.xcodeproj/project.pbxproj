@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45F7F8B6234DC1D4001E2EF5 /* PersonalReminder WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 45F7F8B5234DC1D4001E2EF5 /* PersonalReminder WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		45F7F8BC234DC1D4001E2EF5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F7F8BA234DC1D4001E2EF5 /* Interface.storyboard */; };
+		45F7F8BE234DC1D6001E2EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F7F8BD234DC1D6001E2EF5 /* Assets.xcassets */; };
+		45F7F8C5234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 45F7F8C4234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		45F7F8CA234DC1D6001E2EF5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F8C9234DC1D6001E2EF5 /* InterfaceController.swift */; };
+		45F7F8CC234DC1D6001E2EF5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F8CB234DC1D6001E2EF5 /* ExtensionDelegate.swift */; };
+		45F7F8CE234DC1D6001E2EF5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F8CD234DC1D6001E2EF5 /* NotificationController.swift */; };
+		45F7F8D0234DC1D7001E2EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F7F8CF234DC1D7001E2EF5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45F7F8B7234DC1D4001E2EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F7F8AB234DC1D4001E2EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F7F8B4234DC1D4001E2EF5;
+			remoteInfo = "PersonalReminder WatchKit App";
+		};
+		45F7F8C6234DC1D6001E2EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F7F8AB234DC1D4001E2EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F7F8C3234DC1D6001E2EF5;
+			remoteInfo = "PersonalReminder WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45F7F8D8234DC1D7001E2EF5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				45F7F8C5234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F7F8DC234DC1D7001E2EF5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				45F7F8B6234DC1D4001E2EF5 /* PersonalReminder WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45F7F8B1234DC1D4001E2EF5 /* PersonalReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F7F8B5234DC1D4001E2EF5 /* PersonalReminder WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PersonalReminder WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F7F8BB234DC1D4001E2EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		45F7F8BD234DC1D6001E2EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F7F8BF234DC1D6001E2EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F7F8C4234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PersonalReminder WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F7F8C9234DC1D6001E2EF5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		45F7F8CB234DC1D6001E2EF5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		45F7F8CD234DC1D6001E2EF5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		45F7F8CF234DC1D7001E2EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F7F8D1234DC1D7001E2EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F7F8D2234DC1D7001E2EF5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F7F8C1234DC1D6001E2EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F7F8AA234DC1D4001E2EF5 = {
+			isa = PBXGroup;
+			children = (
+				45F7F8B9234DC1D4001E2EF5 /* PersonalReminder WatchKit App */,
+				45F7F8C8234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension */,
+				45F7F8B2234DC1D4001E2EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45F7F8B2234DC1D4001E2EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F7F8B1234DC1D4001E2EF5 /* PersonalReminder.app */,
+				45F7F8B5234DC1D4001E2EF5 /* PersonalReminder WatchKit App.app */,
+				45F7F8C4234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F7F8B9234DC1D4001E2EF5 /* PersonalReminder WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				45F7F8BA234DC1D4001E2EF5 /* Interface.storyboard */,
+				45F7F8BD234DC1D6001E2EF5 /* Assets.xcassets */,
+				45F7F8BF234DC1D6001E2EF5 /* Info.plist */,
+			);
+			path = "PersonalReminder WatchKit App";
+			sourceTree = "<group>";
+		};
+		45F7F8C8234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				45F7F8C9234DC1D6001E2EF5 /* InterfaceController.swift */,
+				45F7F8CB234DC1D6001E2EF5 /* ExtensionDelegate.swift */,
+				45F7F8CD234DC1D6001E2EF5 /* NotificationController.swift */,
+				45F7F8CF234DC1D7001E2EF5 /* Assets.xcassets */,
+				45F7F8D1234DC1D7001E2EF5 /* Info.plist */,
+				45F7F8D2234DC1D7001E2EF5 /* PushNotificationPayload.apns */,
+			);
+			path = "PersonalReminder WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F7F8B0234DC1D4001E2EF5 /* PersonalReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F7F8DD234DC1D7001E2EF5 /* Build configuration list for PBXNativeTarget "PersonalReminder" */;
+			buildPhases = (
+				45F7F8AF234DC1D4001E2EF5 /* Resources */,
+				45F7F8DC234DC1D7001E2EF5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F7F8B8234DC1D4001E2EF5 /* PBXTargetDependency */,
+			);
+			name = PersonalReminder;
+			productName = PersonalReminder;
+			productReference = 45F7F8B1234DC1D4001E2EF5 /* PersonalReminder.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		45F7F8B4234DC1D4001E2EF5 /* PersonalReminder WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F7F8D9234DC1D7001E2EF5 /* Build configuration list for PBXNativeTarget "PersonalReminder WatchKit App" */;
+			buildPhases = (
+				45F7F8B3234DC1D4001E2EF5 /* Resources */,
+				45F7F8D8234DC1D7001E2EF5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F7F8C7234DC1D6001E2EF5 /* PBXTargetDependency */,
+			);
+			name = "PersonalReminder WatchKit App";
+			productName = "PersonalReminder WatchKit App";
+			productReference = 45F7F8B5234DC1D4001E2EF5 /* PersonalReminder WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		45F7F8C3234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F7F8D5234DC1D7001E2EF5 /* Build configuration list for PBXNativeTarget "PersonalReminder WatchKit Extension" */;
+			buildPhases = (
+				45F7F8C0234DC1D6001E2EF5 /* Sources */,
+				45F7F8C1234DC1D6001E2EF5 /* Frameworks */,
+				45F7F8C2234DC1D6001E2EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PersonalReminder WatchKit Extension";
+			productName = "PersonalReminder WatchKit Extension";
+			productReference = 45F7F8C4234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F7F8AB234DC1D4001E2EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Софья П. Рожина";
+				TargetAttributes = {
+					45F7F8B0234DC1D4001E2EF5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					45F7F8B4234DC1D4001E2EF5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					45F7F8C3234DC1D6001E2EF5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 45F7F8AE234DC1D4001E2EF5 /* Build configuration list for PBXProject "PersonalReminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45F7F8AA234DC1D4001E2EF5;
+			productRefGroup = 45F7F8B2234DC1D4001E2EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45F7F8B0234DC1D4001E2EF5 /* PersonalReminder */,
+				45F7F8B4234DC1D4001E2EF5 /* PersonalReminder WatchKit App */,
+				45F7F8C3234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45F7F8AF234DC1D4001E2EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F7F8B3234DC1D4001E2EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F7F8BE234DC1D6001E2EF5 /* Assets.xcassets in Resources */,
+				45F7F8BC234DC1D4001E2EF5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F7F8C2234DC1D6001E2EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F7F8D0234DC1D7001E2EF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F7F8C0234DC1D6001E2EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F7F8CE234DC1D6001E2EF5 /* NotificationController.swift in Sources */,
+				45F7F8CC234DC1D6001E2EF5 /* ExtensionDelegate.swift in Sources */,
+				45F7F8CA234DC1D6001E2EF5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45F7F8B8234DC1D4001E2EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F7F8B4234DC1D4001E2EF5 /* PersonalReminder WatchKit App */;
+			targetProxy = 45F7F8B7234DC1D4001E2EF5 /* PBXContainerItemProxy */;
+		};
+		45F7F8C7234DC1D6001E2EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F7F8C3234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension */;
+			targetProxy = 45F7F8C6234DC1D6001E2EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45F7F8BA234DC1D4001E2EF5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F7F8BB234DC1D4001E2EF5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45F7F8D3234DC1D7001E2EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45F7F8D4234DC1D7001E2EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45F7F8D6234DC1D7001E2EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				INFOPLIST_FILE = "PersonalReminder WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SofiaRozhina.PersonalReminder.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		45F7F8D7234DC1D7001E2EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				INFOPLIST_FILE = "PersonalReminder WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SofiaRozhina.PersonalReminder.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		45F7F8DA234DC1D7001E2EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				IBSC_MODULE = PersonalReminder_WatchKit_Extension;
+				INFOPLIST_FILE = "PersonalReminder WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SofiaRozhina.PersonalReminder.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		45F7F8DB234DC1D7001E2EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				IBSC_MODULE = PersonalReminder_WatchKit_Extension;
+				INFOPLIST_FILE = "PersonalReminder WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SofiaRozhina.PersonalReminder.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		45F7F8DE234DC1D7001E2EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SofiaRozhina.PersonalReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		45F7F8DF234DC1D7001E2EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SofiaRozhina.PersonalReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F7F8AE234DC1D4001E2EF5 /* Build configuration list for PBXProject "PersonalReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F7F8D3234DC1D7001E2EF5 /* Debug */,
+				45F7F8D4234DC1D7001E2EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F7F8D5234DC1D7001E2EF5 /* Build configuration list for PBXNativeTarget "PersonalReminder WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F7F8D6234DC1D7001E2EF5 /* Debug */,
+				45F7F8D7234DC1D7001E2EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F7F8D9234DC1D7001E2EF5 /* Build configuration list for PBXNativeTarget "PersonalReminder WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F7F8DA234DC1D7001E2EF5 /* Debug */,
+				45F7F8DB234DC1D7001E2EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F7F8DD234DC1D7001E2EF5 /* Build configuration list for PBXNativeTarget "PersonalReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F7F8DE234DC1D7001E2EF5 /* Debug */,
+				45F7F8DF234DC1D7001E2EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45F7F8AB234DC1D4001E2EF5 /* Project object */;
+}
