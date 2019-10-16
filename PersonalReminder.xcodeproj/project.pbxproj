@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45103270234F135200461088 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510326F234F135200461088 /* Reminder.swift */; };
 		45F7F8B6234DC1D4001E2EF5 /* PersonalReminder WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 45F7F8B5234DC1D4001E2EF5 /* PersonalReminder WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		45F7F8BC234DC1D4001E2EF5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F7F8BA234DC1D4001E2EF5 /* Interface.storyboard */; };
 		45F7F8BE234DC1D6001E2EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F7F8BD234DC1D6001E2EF5 /* Assets.xcassets */; };
 		45F7F8C5234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 45F7F8C4234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		45F7F8CA234DC1D6001E2EF5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F8C9234DC1D6001E2EF5 /* InterfaceController.swift */; };
+		45F7F8CA234DC1D6001E2EF5 /* RemindersListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F8C9234DC1D6001E2EF5 /* RemindersListController.swift */; };
 		45F7F8CC234DC1D6001E2EF5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F8CB234DC1D6001E2EF5 /* ExtensionDelegate.swift */; };
 		45F7F8CE234DC1D6001E2EF5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F8CD234DC1D6001E2EF5 /* NotificationController.swift */; };
 		45F7F8D0234DC1D7001E2EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F7F8CF234DC1D7001E2EF5 /* Assets.xcassets */; };
+		45F7F8E1234DC770001E2EF5 /* ReminderRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F8E0234DC770001E2EF5 /* ReminderRowController.swift */; };
+		45F7F8E3234DCACA001E2EF5 /* RemainderDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F8E2234DCACA001E2EF5 /* RemainderDetailsController.swift */; };
+		45F7F8E5234DCE75001E2EF5 /* DaysSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F8E4234DCE75001E2EF5 /* DaysSelectionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,18 +64,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4510326F234F135200461088 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		45F7F8B1234DC1D4001E2EF5 /* PersonalReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F7F8B5234DC1D4001E2EF5 /* PersonalReminder WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PersonalReminder WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F7F8BB234DC1D4001E2EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		45F7F8BD234DC1D6001E2EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F7F8BF234DC1D6001E2EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F7F8C4234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PersonalReminder WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45F7F8C9234DC1D6001E2EF5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		45F7F8C9234DC1D6001E2EF5 /* RemindersListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListController.swift; sourceTree = "<group>"; };
 		45F7F8CB234DC1D6001E2EF5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		45F7F8CD234DC1D6001E2EF5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		45F7F8CF234DC1D7001E2EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F7F8D1234DC1D7001E2EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F7F8D2234DC1D7001E2EF5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		45F7F8E0234DC770001E2EF5 /* ReminderRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRowController.swift; sourceTree = "<group>"; };
+		45F7F8E2234DCACA001E2EF5 /* RemainderDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainderDetailsController.swift; sourceTree = "<group>"; };
+		45F7F8E4234DCE75001E2EF5 /* DaysSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysSelectionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +125,16 @@
 		45F7F8C8234DC1D6001E2EF5 /* PersonalReminder WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				45F7F8C9234DC1D6001E2EF5 /* InterfaceController.swift */,
+				45F7F8C9234DC1D6001E2EF5 /* RemindersListController.swift */,
 				45F7F8CB234DC1D6001E2EF5 /* ExtensionDelegate.swift */,
 				45F7F8CD234DC1D6001E2EF5 /* NotificationController.swift */,
 				45F7F8CF234DC1D7001E2EF5 /* Assets.xcassets */,
 				45F7F8D1234DC1D7001E2EF5 /* Info.plist */,
 				45F7F8D2234DC1D7001E2EF5 /* PushNotificationPayload.apns */,
+				45F7F8E0234DC770001E2EF5 /* ReminderRowController.swift */,
+				45F7F8E2234DCACA001E2EF5 /* RemainderDetailsController.swift */,
+				45F7F8E4234DCE75001E2EF5 /* DaysSelectionController.swift */,
+				4510326F234F135200461088 /* Reminder.swift */,
 			);
 			path = "PersonalReminder WatchKit Extension";
 			sourceTree = "<group>";
@@ -254,9 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F7F8E1234DC770001E2EF5 /* ReminderRowController.swift in Sources */,
+				45103270234F135200461088 /* Reminder.swift in Sources */,
 				45F7F8CE234DC1D6001E2EF5 /* NotificationController.swift in Sources */,
 				45F7F8CC234DC1D6001E2EF5 /* ExtensionDelegate.swift in Sources */,
-				45F7F8CA234DC1D6001E2EF5 /* InterfaceController.swift in Sources */,
+				45F7F8E5234DCE75001E2EF5 /* DaysSelectionController.swift in Sources */,
+				45F7F8E3234DCACA001E2EF5 /* RemainderDetailsController.swift in Sources */,
+				45F7F8CA234DC1D6001E2EF5 /* RemindersListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

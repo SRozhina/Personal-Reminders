@@ -1,11 +1,3 @@
-//
-//  NotificationController.swift
-//  PersonalReminder WatchKit Extension
-//
-//  Created by Софья П. Рожина on 09/10/2019.
-//  Copyright © 2019 Софья П. Рожина. All rights reserved.
-//
-
 import WatchKit
 import Foundation
 import UserNotifications
